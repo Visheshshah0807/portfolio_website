@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
   const link = [
     {
       id: 1,
@@ -41,7 +44,25 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <FaBars className="block md:hidden text-3xl cursor-pointer" />
+      <div
+        onClick={handleClick}
+        className="cursor-pointer pr-4 z-10  md:hidden text-gray-400 "
+      >
+        {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
+      </div>
+
+      {nav && (
+        <ul className="absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 md:hidden">
+          {link.map(({ id, link }) => (
+            <li
+              key={id}
+              className=" px-4 py-6 text-4xl cursor-pointer capitalize hover:scale-125 duration-150 text-gray-500 hover:text-gray-100 "
+            >
+              {link}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
