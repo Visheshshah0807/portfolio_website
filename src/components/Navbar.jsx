@@ -38,8 +38,8 @@ const Navbar = () => {
         {link.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer font-medium relative duration-300 hover:text-gray-300 before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-gray-300 before:scale-x-0 before:origin-left hover:before:scale-x-100 hover:before:origin-right capitalize hidden md:block"
-          >
+            className="px-4 cursor-pointer font-medium relative duration-300 hover:text-blue-400 before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-blue-400 before:scale-x-0 before:origin-left hover:before:scale-x-100 hover:before:origin-right capitalize hidden md:block"
+          > 
             {link}
           </li>
         ))}
@@ -56,7 +56,7 @@ const Navbar = () => {
           {link.map(({ id, link }) => (
             <li
               key={id}
-              className=" px-4 py-6 text-4xl cursor-pointer capitalize hover:scale-125 duration-150 text-gray-500 hover:text-gray-100 "
+              className=" px-4 py-6 text-4xl cursor-pointer capitalize hover:scale-125 duration-150 text-gray-500 hover:text-blue-400 "
             >
               {link}
             </li>

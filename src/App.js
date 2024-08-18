@@ -1,4 +1,6 @@
+import About from "./components/About";
 import Navbar from "./components/Navbar";
+import SocialMedia from "./components/SocialMedia";
 import Home from "./Home";
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <div>
       <Navbar />
       <Home/>
+      <About/>
+      <SocialMedia/>
     </div>
   );
 }
