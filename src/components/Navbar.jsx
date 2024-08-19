@@ -39,14 +39,14 @@ const Navbar = () => {
           <li
             key={id}
             className="px-4 cursor-pointer font-medium relative duration-300 hover:text-blue-400 before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-blue-400 before:scale-x-0 before:origin-left hover:before:scale-x-100 hover:before:origin-right capitalize hidden md:block"
-          > 
+          >
             {link}
           </li>
         ))}
       </ul>
       <div
         onClick={handleClick}
-        className="cursor-pointer pr-4 z-10  md:hidden text-gray-400 "
+        className="cursor-pointer pr-4 z-10 md:hidden text-gray-400 "
       >
         {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>

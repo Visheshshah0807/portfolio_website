@@ -28,13 +28,13 @@ const Typewriter = () => {
       }
     };
 
-    const timeoutId = setTimeout(type, 100);
+    const timeoutId = setTimeout(type, 80);
     return () => clearTimeout(timeoutId);
   }, [text, isDeleting, letterIndex, currentWordIndex]);
 
   return (
     <div id="typewriter">
-      I'm {text}
+      I'm a {text}
       <span className="blinking-cursor">|</span>
     </div>
   );
