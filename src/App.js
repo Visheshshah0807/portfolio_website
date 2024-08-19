@@ -11,6 +11,7 @@ function App() {
       <Home />
       <About />
       <Projects/>
+      
       <SocialMedia />
     </div>
   );

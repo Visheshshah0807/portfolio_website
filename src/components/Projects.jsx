@@ -1,11 +1,40 @@
-import React from 'react'
+import React from "react";
+import netfliximg from "../assets/netfliximg.png";
 
 const Projects = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div
+      name="projects"
+      className="w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+    >
+      <div className="flex flex-col justify-center max-w-screen-lg mx-auto p-4 w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Projects
+          </p>
+          <p className="py-6 text-xl">Check out some of my projects</p>
+        </div>
 
-export default Projects
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className="shadow-md shadow-gray-300 rounded-lg">
+            <img
+              src={netfliximg}
+              alt=""
+              className="rounded-md duration-200 hover:scale-105"
+            />
+            <div className="flex items-center justify-center">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                Demo
+              </button>
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                Code
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
