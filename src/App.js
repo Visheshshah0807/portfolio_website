@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import SocialMedia from "./components/SocialMedia";
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Projects/>
+      <Experience/>
       
       <SocialMedia />
     </div>

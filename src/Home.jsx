@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen pt-20 md:pt-0 w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-white">
         <div className="flex flex-col justify-center h-full">
@@ -26,9 +26,16 @@ const Home = () => {
             cupiditate, eveniet maxime voluptate accusamus quam laboriosam quia!
             Blanditiis, optio temporibus. Debitis, itaque non.
           </p>
-          <div className="mt-8">
+
+          <div className="mt-8 flex ">
             <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
               Portfolio
+              <span className="ml-1 group-hover:rotate-90 duration-300">
+                <TiArrowRightThick size={25} />
+              </span>
+            </button>
+            <button className="group md:hidden text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold ml-10 ">
+              Resume
               <span className="ml-1 group-hover:rotate-90 duration-300">
                 <TiArrowRightThick size={25} />
               </span>
