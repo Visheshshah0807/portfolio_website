@@ -37,14 +37,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to bg-gray-800 py-4 text-white"
+      className="w-full h-screen bg-gradient-to-b from-black to bg-gray-800 py-4 text-white pt-20"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <p className="py-6">Submit the below form to get in touch with me</p>
+          <p className="py-6 font-semibold text-xl">Submit the below form to get in touch with me</p>
         </div>
 
         {/*----------------------------------- form ---------------------------*/}
@@ -53,7 +53,7 @@ const Contact = () => {
           <form
             onSubmit={handleSubmit}
             action=""
-            className="flex flex-col w-full md:w-1/2 mx-auto contact-form"
+            className="flex flex-col w-80 md:w-1/2 mx-auto contact-form "
           >
             <input
               type="text"

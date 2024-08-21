@@ -2,6 +2,7 @@ import React from "react";
 import { TiArrowRightThick } from "react-icons/ti";
 import HeroImage from "../src/assets/VisheshShah BGR.png"; // Ensure the image path is correct
 import Typewriter from "./components/typewritter";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -28,24 +29,35 @@ const Home = () => {
           </p>
 
           <div className="mt-8 flex ">
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
-              Portfolio
+            <Link
+              to="projects"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold"
+            >
+              Projects
               <span className="ml-1 group-hover:rotate-90 duration-300">
                 <TiArrowRightThick size={25} />
               </span>
-            </button>
-            <button className="group md:hidden text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold ml-10 ">
-              Resume
-              <span className="ml-1 group-hover:rotate-90 duration-300">
-                <TiArrowRightThick size={25} />
-              </span>
-            </button>
+            </Link>
+            <a
+              href="https://drive.google.com/file/d/1IXVtBryJNl04Z-x7s0N3onodI5X5s4QA/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+            >
+              <button className="group md:hidden text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold ml-10">
+                Resume
+                <span className="ml-1 group-hover:rotate-90 duration-300">
+                  <TiArrowRightThick size={25} />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center">
           <img
             src={HeroImage}
-            alt="Vishesh Shah's profile" // Updated alt text for better accessibility and description
+            alt="Vishesh Shah's profile" 
             className=" rounded-lg mx-auto w-[300px] h-[300px] md:w-[500px] md:h-[500px]"
           />
         </div>
