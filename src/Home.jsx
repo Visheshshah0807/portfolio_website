@@ -41,9 +41,9 @@ const Home = () => {
               </span>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1IXVtBryJNl04Z-x7s0N3onodI5X5s4QA/view?usp=sharing" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+              href="https://drive.google.com/file/d/1IXVtBryJNl04Z-x7s0N3onodI5X5s4QA/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="group md:hidden text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-bold ml-10">
                 Resume
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="flex justify-center items-center">
           <img
             src={HeroImage}
-            alt="Vishesh Shah's profile" 
+            alt="Vishesh Shah's profile"
             className=" rounded-lg mx-auto w-[300px] h-[300px] md:w-[500px] md:h-[500px]"
           />
         </div>

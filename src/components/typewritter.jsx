@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 const Typewriter = () => {
-  const words = ["Web Developer", "AWS Certified Cloud Practitioner", "Ex-President at CodeChef BU"];
+  const words = [
+    "Web Developer",
+    "AWS Certified Cloud Practitioner",
+    "Ex-President at CodeChef BU",
+  ];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);

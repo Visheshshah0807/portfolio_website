@@ -44,7 +44,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <p className="py-6 font-semibold text-xl">Submit the below form to get in touch with me</p>
+          <p className="py-6 font-semibold text-xl">
+            Submit the below form to get in touch with me
+          </p>
         </div>
 
         {/*----------------------------------- form ---------------------------*/}

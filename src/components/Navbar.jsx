@@ -70,7 +70,9 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center bg-[#000] w-full h-20 z-10 fixed px-5 text-white">
       <div>
-        <Link to="home" smooth duration={500} ><img src={logo} alt="Logo" className="w-20 h-20 cursor-pointer" /></Link>
+        <Link to="home" smooth duration={500}>
+          <img src={logo} alt="Logo" className="w-20 h-20 cursor-pointer" />
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
