@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20 px-12">
+        <p className="text-xl mt-20 px-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
           rerum ratione minus architecto illo laboriosam sed ullam veniam
           debitis iusto? Minima quibusdam et aperiam totam. Officia fuga error
@@ -29,7 +29,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl px-12">
+        <p className="text-xl px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
           blanditiis suscipit, repellendus eos, soluta assumenda magnam beatae
           minima reiciendis culpa libero iste fuga eligendi corrupti, distinctio

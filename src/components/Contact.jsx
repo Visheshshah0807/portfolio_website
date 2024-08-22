@@ -55,7 +55,7 @@ const Contact = () => {
           <form
             onSubmit={handleSubmit}
             action=""
-            className="flex flex-col w-80 md:w-1/2 mx-auto contact-form "
+            className="flex flex-col w-[350px] md:w-1/2 mx-auto contact-form "
           >
             <input
               type="text"
