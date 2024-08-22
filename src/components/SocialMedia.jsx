@@ -27,7 +27,7 @@ const SocialMedia = () => {
     },
 
     {
-      id: 1,
+      id: 3,
       child: (
         <>
           Twitter <FaTwitter size={30} />
@@ -37,7 +37,7 @@ const SocialMedia = () => {
     },
 
     {
-      id: 1,
+      id: 4,
       child: (
         <>
           Instagram <FaInstagram size={30} />
@@ -47,7 +47,7 @@ const SocialMedia = () => {
     },
 
     {
-      id: 3,
+      id: 5,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -57,7 +57,7 @@ const SocialMedia = () => {
     },
 
     {
-      id: 4,
+      id: 6,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
