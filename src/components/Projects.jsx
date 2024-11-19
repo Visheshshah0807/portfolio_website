@@ -6,32 +6,22 @@ const Projects = () => {
     {
       id: 1,
       src: netfliximg,
+      demo: "https://netflix-home-page-vs.vercel.app/",
+      code: "https://github.com/Visheshshah0807/netflixhomepage.git",
     },
-    {
-      id: 2,
-      src: netfliximg,
-    },
-    {
-      id: 3,
-      src: netfliximg,
-    },
-    {
-      id: 4,
-      src: netfliximg,
-    },
-    {
-      id: 5,
-      src: netfliximg,
-    },
-    {
-      id: 6,
-      src: netfliximg,
-    },
+    // {
+    //   id: 2,
+    //   src: img,
+    //   demo: "demo link",
+    //   code: "code link",
+    // },
+    // Add more projects as needed
   ];
+
   return (
     <div
       name="projects"
-      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-20" // Changed h-screen to min-h-screen to allow content to determine height
+      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-20"
     >
       <div className="flex flex-col justify-center max-w-screen-lg mx-auto p-4 w-full h-full">
         <div className="pb-8">
@@ -44,18 +34,27 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-5 sm:px-0">
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-300 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+              {/* Make the image clickable */}
+              <a href={demo} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={src}
+                  alt={`Project ${id}`}
+                  className="rounded-md duration-200 hover:scale-105 cursor-pointer"
+                />
+              </a>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                  onClick={() => window.open(demo, "_blank")} // Open Demo link in a new tab
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                  onClick={() => window.open(code, "_blank")} // Open Code link in a new tab
+                >
                   Code
                 </button>
               </div>
