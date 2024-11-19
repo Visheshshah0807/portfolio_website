@@ -22,10 +22,10 @@ const Home = () => {
             <Typewriter />
           </h3>
           <p className="text-gray-400 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-            fugiat doloribus officiis odio corporis tempora exercitationem
-            cupiditate, eveniet maxime voluptate accusamus quam laboriosam quia!
-            Blanditiis, optio temporibus. Debitis, itaque non.
+            Passionate Computer Science Engineering student and AWS Cloud
+            Practitioner, leading CodeChef BU Club. Dedicated to innovative tech
+            solutions, fostering learning, and collaborating on projects that
+            merge creativity with functionality.
           </p>
 
           <div className="mt-8 flex ">
