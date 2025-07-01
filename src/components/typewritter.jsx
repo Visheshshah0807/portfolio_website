@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Typewriter = () => {
   const words = [
+    "Aspiring Data Analyst",
     "Web Developer",
     "AWS Certified Cloud Practitioner",
     "Ex-President at CodeChef BU",

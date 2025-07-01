@@ -23,7 +23,7 @@ const Home = () => {
           </h3>
           <p className="text-gray-400 py-4 max-w-md">
             Passionate Computer Science Engineering student and AWS Cloud
-            Practitioner, leading CodeChef BU Club. Dedicated to innovative tech
+            Practitioner, former leader of the CodeChef BU Club. Dedicated to innovative tech
             solutions, fostering learning, and collaborating on projects that
             merge creativity with functionality.
           </p>

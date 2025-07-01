@@ -20,14 +20,6 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Netflix Landing Page",
-      images: [netfliximg1],
-      demo: "https://netflix-home-page-vs.vercel.app/",
-      code: "https://github.com/Visheshshah0807/netflixhomepage.git",
-      isMobileApp: false,
-    },
-    {
-      id: 2,
       name: "Find My Job",
       images: [findmyjob1, fmj5, fmj1, fmj2, fmj3, fmj4],
       demo: "https://findmyjobs.vercel.app/",
@@ -35,14 +27,14 @@ const Projects = () => {
       isMobileApp: false,
     },
     {
-      id: 3,
+      id: 2,
       name: "BMI Tracker App",
       images: [bmi1, bmi2],
       code: "https://github.com/Visheshshah0807/bmi_tracker/tree/master",
       isMobileApp: true,
     },
     {
-      id: 4,
+      id: 3,
       name: "Book Bro App",
       images: [bb1, bb2, bb3],
       code: "https://github.com/BookBro/BookBroo",
