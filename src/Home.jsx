@@ -23,9 +23,9 @@ const Home = () => {
           </h3>
           <p className="text-gray-400 py-4 max-w-md">
             Passionate Computer Science Engineering student and AWS Cloud
-            Practitioner, former leader of the CodeChef BU Club. Dedicated to innovative tech
-            solutions, fostering learning, and collaborating on projects that
-            merge creativity with functionality.
+            Practitioner, former leader of the CodeChef BU Club. Dedicated to
+            innovative tech solutions, fostering learning, and collaborating on
+            projects that merge creativity with functionality.
           </p>
 
           <div className="mt-8 flex ">
@@ -41,7 +41,7 @@ const Home = () => {
               </span>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1NYgsafC5AWJcfrgKGrDED2tyz9w1eXkf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SJziKMJhsdzaPsz7MrOuB7lmJNdvYSwj/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
