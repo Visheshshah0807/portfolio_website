@@ -1,6 +1,6 @@
 import React from "react";
 import { TiArrowRightThick } from "react-icons/ti";
-import HeroImage from "../src/assets/VisheshShah BGR.png"; // Ensure the image path is correct
+import HeroImage from "../src/assets/VisheshShah BGR.png"; 
 import Typewriter from "./components/typewritter";
 import { Link } from "react-scroll";
 
@@ -23,7 +23,7 @@ const Home = () => {
           </h3>
           <p className="text-gray-400 py-4 max-w-md">
             Passionate Computer Science Engineering student and AWS Cloud
-            Practitioner, former leader of the CodeChef BU Club. Dedicated to
+            Practitioner Certified, former leader of the CodeChef BU Club. Dedicated to
             innovative tech solutions, fostering learning, and collaborating on
             projects that merge creativity with functionality.
           </p>
@@ -41,7 +41,7 @@ const Home = () => {
               </span>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1yAPvIsNrpUVVqFroc83hRz_izZ6NKSWG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1InIzusHvTfDd8fDnzVhWlY3K9g3b4Gnw/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
