@@ -68,7 +68,6 @@ const Projects = () => {
                 spaceBetween={10}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                // autoplay={{ delay: 2500, disableOnInteraction: false }}
                 className="w-full h-48"
               >
                 {images.map((img, index) => (

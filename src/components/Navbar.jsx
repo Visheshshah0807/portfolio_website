@@ -62,7 +62,7 @@ const Navbar = () => {
     {
       id: 6,
       child: <BsFillPersonLinesFill size={30} />,
-      href: "https://drive.google.com/file/d/1InIzusHvTfDd8fDnzVhWlY3K9g3b4Gnw/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1uh412ePeMg1KXfshq_pI4PRTc9yNEx4n/view?usp=sharing",
       download: true,
     },
   ];
